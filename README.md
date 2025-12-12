@@ -56,7 +56,7 @@ O cabeçalho deste repositório foi gerado com base nas imagens _raster_ obtidas
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/a8ad83eb-4d70-4a19-b9f0-d17fc365d792" />
 
 ## Licença
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE.txt) para mais detalhes.
 
 ## Para citar esse trabalho
 Este código é aberto e pode ser utilizado livremente por qualquer pessoa.  
