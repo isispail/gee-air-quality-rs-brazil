@@ -108,8 +108,8 @@ print(
         
         // altura e largura do gráfico
         
-        height: 500,
-        width: 800,
+        height: 450,
+        width: 900,
         
         // configuração da legenda e estilo da linha
         
