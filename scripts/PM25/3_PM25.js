@@ -103,7 +103,7 @@ print(
         // altura e largura do gráfico
         
         height: 450, 
-        width: 500,
+        width: 900,
         
         // configuração do eixo x
         
