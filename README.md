@@ -52,8 +52,8 @@ As unidades originais de alguns poluentes são dadas em **VMR (razão de mistura
 Os _calendar heatmaps_ abaixo foram gerados a partir dos dados coletados pelos scripts `4_NO2.js` e `4_O3.js`.  
 O cabeçalho deste repositório foi gerado com base nas imagens _raster_ obtidas pelo script `1_SO2.js`.
 
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/b68410dd-7af8-427f-9fa3-27e873396073" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/a8ad83eb-4d70-4a19-b9f0-d17fc365d792" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/b68410dd-7af8-427f-9fa3-27e873396073" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/a8ad83eb-4d70-4a19-b9f0-d17fc365d792" />
 
 ## Licença
 Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE.txt) para mais detalhes.
