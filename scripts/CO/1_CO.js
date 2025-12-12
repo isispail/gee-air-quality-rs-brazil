@@ -64,7 +64,7 @@ Map.addLayer(
 Export.image.toDrive({
     image: POL_ppm.select('POL_ppm').clip(shp_rs),
     description: 'GEOS_CO_2024', // Para anos: 'GEOS_CO_20XX' // Para meses: 'GEOS_CO_XX_20XX'
-    scale: 1500,
+    scale: 28000,
     region: shp_rs.geometry(),
     fileFormat: 'GeoTIFF',
     folder: 'CO',
