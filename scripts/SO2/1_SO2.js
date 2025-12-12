@@ -80,7 +80,7 @@ Map.addLayer(
 Export.image.toDrive({
     image: POL_ug_m3.select('POL_ug_m3').clip(shp_rs),
     description: 'GEOS_SO2_2024', // Para anos: 'GEOS_SO2_20XX' // Para meses: 'GEOS_SO2_XX_20XX'
-    scale: 1500,
+    scale: 28000,
     region: shp_rs.geometry(),
     fileFormat: 'GeoTIFF',
     folder: 'SO2',
