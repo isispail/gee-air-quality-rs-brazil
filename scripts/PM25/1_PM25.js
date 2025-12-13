@@ -5,8 +5,8 @@ var GEOS_POL = ee.ImageCollection('NASA/GEOS-CF/v1/rpl/tavg1hr');
 var pollutant_band = 'PM25_RH35_GCC'; // Razão de Mistura Volumétrica (mol/mol)
 
 // Período de análise
-var date_start = '2019-09-23';
-var date_end = '2019-12-20';
+var date_start = '2019-01-01';
+var date_end = '2019-12-31';
 
 
 //// PROCESSAMENTO
@@ -39,7 +39,7 @@ Map.addLayer(
 
 Export.image.toDrive({
   image: POL_ug_m3.clip(shp_rs),
-  description: 'GEOS_PM25_SPRING_2019', // Para anos: 'GEOS_PM25_20XX' // Para meses: 'GEOS_PM25_XX_20XX'
+  description: 'GEOS_PM25_2019', // Para anos: 'GEOS_PM25_20XX' // Para meses: 'GEOS_PM25_XX_20XX'
   scale: 28000,
   region: shp_rs.geometry(),
   fileFormat: 'GeoTIFF',
