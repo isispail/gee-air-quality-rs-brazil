@@ -8,7 +8,7 @@ var press_band = 'PS'; // Pressão da Superfície (Pa)
 
 // Período de análise
 var date_start = '2024-01-01';
-var date_end = '2024-02-01';
+var date_end = '2024-12-31';
 
 // Para a conversão de unidades
 var molar_mass = 64; // g/mol
@@ -61,8 +61,8 @@ var POL_ug_m3 = POL_ug_m3_col.mean();
 //// PARÂMETROS DE VISUALIZAÇÃO
 
 var pollutant_vis = {
-    min: 0.17641602333820045,
-    max: 7.604913784256677,
+    min: 0.2735995738385336,
+    max: 9.92378704702647,
     palette: ['#4caf50', '#ffeb3b', '#ff9800', '#f44336', '#8b3a62']
 };
 
